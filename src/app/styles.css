@@ -1,0 +1,27 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #111827; /* gray-900 */
+}
+
+/* Remove conflicting color styles */
+h1, h2, h3, p {
+    color: inherit; /* This will inherit the color from Tailwind classes */
+}
+
+/* Keep only the necessary styles */
+code {
+    background-color: #f3f4f6;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+pre {
+    background-color: #f3f4f6;
+    padding: 10px;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+/* Add more styles as needed */
